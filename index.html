@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java-Beats</title>
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+<div id="content">
+<label class="btn btn-primary btn-file" style="z-index:9999999;">
+    Browse Songs <input type="file" accept="audio/*" id="thefile" hidden>
+</label>
+<h3 class="center white header text pulsate" id="title"></h3>
+  <!-- <input class="btn btn-primary" type="file" id="thefile" accept="audio/*" /> -->
+  <canvas id="canvas"></canvas>
+  <audio id="audio" controls></audio>
+</div>
+</body>
+</html>

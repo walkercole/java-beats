@@ -1,0 +1,126 @@
+h1 {
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Ubuntu;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Ubuntu;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+#thefile {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+	color:white;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#title {
+	color: white;
+	text-align: center;
+	z-index: 9999999999;
+	position: absolute;
+	padding: 10px;
+	text-transform: capitalize;
+	top:100px;
+	right:50%;
+	font-family:Ubuntu;
+}
+
+.text {
+	color: #fff;
+	font-family: 'Ubuntu';
+	font-size: 22px;
+	letter-spacing: 8px;
+	line-height: 32px;
+	position: relative;
+	top: -48px;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+        color: #00C8F2;
+    }
+    50% { 
+        opacity: 1.0;
+        color: #00C8F2;
+    }
+    100% { 
+        opacity: 0.5;
+        color: #00C8F2;
+    }
+}
